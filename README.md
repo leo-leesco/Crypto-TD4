@@ -12,4 +12,4 @@ If you want the optimized version, run `cargo build --release`, and the executab
 
 `x25519` expects :
 - `m` as a 64-hexadecimal string
-- (optional) `u` as a 64-hexadecimal string;if it is not provided, will be set to the default `u=9`
+- (optional) `u` as a 64-hexadecimal string; if it is not provided, will be set to the default `u=9`
