@@ -10,4 +10,5 @@ const P: U256 = U256([
 ]);
 /// this is actually (A+2)/4
 const A: U256 = U256([121666, 0, 0, 0]);
+pub mod conversion;
 pub mod montgomery;
