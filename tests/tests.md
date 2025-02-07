@@ -15,11 +15,11 @@ then you'll need the other tests further below.
 
 ### First curve:
 
-prime: p = 101
+prime: $p = 101$
 
-curve constant: A = 49 in GF(p) (so (A+2)/4 = 38 mod 101)
+curve constant: $A = 49$ in GF(p) (so $(A+2)/4 = 38 mod 101$)
 
-curve: E: Y^2*Z = X*(X^2 + A*X*Z + Z^2) 
+curve: $E: Y^2*Z = X*(X^2 + A*X*Z + Z^2)$
 
 base point: P = (X:Y:Z) = (2:2:1)
 
@@ -32,11 +32,11 @@ Check these (on (X,Z)-coordinates only):
 
 ### Second curve:
 
-prime: p = 1009
+prime: $p = 1009$
 
-curve constant: A = 682 in GF(p) (so (A+2)/4 = 171 mod 1009)
+curve constant: $A = 682$ in GF(p) (so $(A+2)/4 = 171 mod 1009$)
 
-curve: E: Y^2*Z = X*(X^2 + A*X*Z + Z^2)
+curve: $E: Y^2*Z = X*(X^2 + A*X*Z + Z^2)$
 
 base point: P = (X:Y:Z) = (7:207:1)
 
@@ -53,11 +53,11 @@ Check these (on (X,Z)-coordinates only):
 
 ## Tests for Curve25519
 
-prime: p = 2^255 - 19
+prime: $p = 2^255 - 19$
 
-curve constant: A = 486662 (so (A+2)/4 = 121666)
+curve constant: $A = 486662$ (so $(A+2)/4 = 121666$)
 
-curve: E: Y^2*Z = X*(X^2 + A*X*Z + Z^2)
+curve: $E: Y^2*Z = X*(X^2 + A*X*Z + Z^2)$
 
 base point: P = (X:Y:Z) = (9:*:1)
 where y = 14781619447589544791020593568409986887264606134616475288964881837755586237401
